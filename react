@@ -1,0 +1,152 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\M IGNECIA RATHNA> mkdir ReactProjects
+
+
+    Directory: C:\Users\M IGNECIA RATHNA
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07-03-2023  08:41 PM                ReactProjects
+
+
+PS C:\Users\M IGNECIA RATHNA> cd ReactProjects
+PS C:\Users\M IGNECIA RATHNA\ReactProjects> npx create-react-app my-app
+Need to install the following packages:
+  create-react-app@5.0.1
+Ok to proceed? (y) y
+npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+
+Creating a new React app in C:\Users\M IGNECIA RATHNA\ReactProjects\my-app.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1417 packages in 6m
+
+231 packages are looking for funding
+  run `npm fund` for details
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+
+added 62 packages in 36s
+
+231 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1479 packages in 23s
+
+231 packages are looking for funding
+  run `npm fund` for details
+
+6 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Created git commit.
+
+Success! Created my-app at C:\Users\M IGNECIA RATHNA\ReactProjects\my-app
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd my-app
+  npm start
+
+Happy hacking!
+npm notice
+npm notice New minor version of npm available! 9.5.0 -> 9.6.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.6.0
+npm notice Run npm install -g npm@9.6.0 to update!
+npm notice
+PS C:\Users\M IGNECIA RATHNA\ReactProjects> npm install -g npm@9.6.0
+
+added 1 package in 29s
+
+16 packages are looking for funding
+  run `npm fund` for details
+PS C:\Users\M IGNECIA RATHNA\ReactProjects> cd my-app
+PS C:\Users\M IGNECIA RATHNA\ReactProjects\my-app> npm start
+
+> my-app@0.1.0 start
+> react-scripts start
+
+(node:9448) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:9448) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+Compiled successfully!
+
+You can now view my-app in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.0.106:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+
+You can now view my-app in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.0.106:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint]
+src\index.js
+  Line 17:1:  'reportWebVitals' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint]
+src\index.js
+  Line 17:1:  'reportWebVitals' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...
+Compiled successfully!
+
+You can now view my-app in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.0.106:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
